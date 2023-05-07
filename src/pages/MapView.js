@@ -29,7 +29,7 @@ function MapView() {
           </Map>
         </div>
       </div>
-      <Link to="/post" className="flex h-full w-full overflow-hidden block">
+      <Link to="/post" className="flex h-full w-full overflow-hidden">
         <PostButton />
       </Link>
     </div>

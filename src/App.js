@@ -3,7 +3,7 @@ import { React } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import MapView from './pages/MapView';
 import PostView from './pages/PostView';
-
+// import LostForm from './pages/PostView2';
 function App() {
   return (
     <div className="App">
