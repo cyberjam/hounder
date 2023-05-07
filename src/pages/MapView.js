@@ -1,4 +1,6 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import { React, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Map } from 'react-kakao-maps-sdk';
 import CurrentPositionMarker from '../components/CurrentPositionMarker';
 import PostButton from '../components/PostButton';
@@ -27,7 +29,9 @@ function MapView() {
           </Map>
         </div>
       </div>
-      <PostButton />
+      <Link to="/post" className="flex h-full w-full overflow-hidden">
+        <PostButton />
+      </Link>
     </div>
   );
 }
